@@ -1,0 +1,71 @@
+/* 全体構造 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino kaku Gothic Pro', 'メイリオ', 'Meiryo', san-serif;
+}
+
+.page {
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  height: 120px;
+}
+
+header .logo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header a {
+  line-height: 120px;
+}
+
+header a img {
+  vertical-align: middle;
+}
+
+/* メインビュー */
+.main_visual {
+  background-image: url(../images/main-image.png);
+  background-size: cover;
+  height: 500px;
+}
+
+/* ナビゲーション */
+nav {
+  background-color: #f893b1;
+}
+nav ul {
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 16px 22px;
+  border-left: 1px solid#ffffff;
+  transition: all 0.5s;
+}
+
+ul li:last-child a {
+  border-right: 1px solid #ffffff;
+}
+
+ul li a:hover {
+  background-color: #ffffff;
+  color: #f893b1;
+  opacity: 0.7;
+}
