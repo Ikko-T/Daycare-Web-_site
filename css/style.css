@@ -415,3 +415,151 @@ footer p {
   vertical-align: middle;
   padding-left: 10px;
 }
+
+/*************コンタクトページ*****************/
+#contact main .wrapper {
+  background-image: url(../images/bg-check-pattern.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+#contact .group {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#contact .breadcrumbs {
+  margin-top: 42px;
+}
+
+#contact .breadcrumbs li {
+  display: inline-block;
+}
+
+#contact .breadcrumbs a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 12px;
+}
+
+#contact .sub_group {
+  margin-top: 24px;
+  margin-left: 334px;
+  display: flex;
+  align-items: center;
+}
+#contact .sub_group h2 {
+  font-size: 24px;
+  color: #ffcc00;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+#contact .question {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 13px;
+}
+
+#contact .question p {
+  font-size: 20px;
+  color: #9ccd08;
+  margin-bottom: 14px;
+}
+
+#contact .question .tel {
+  font-size: 24px;
+  color: #ff6666;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+#contact .question .tel::before {
+  content: '☎︎';
+  padding-right: 15px;
+}
+
+#contact .form {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#contact .form h3 {
+  font-size: 20px;
+  color: #f893b1;
+  margin-top: 23px;
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+#contact .form dl {
+  margin-left: 30px;
+  margin-right: 110px;
+  margin-bottom: 30px;
+}
+
+#contact dl .form_item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#contact .form_item dt {
+  flex: 1;
+  font-size: 20px;
+  color: #f893b1;
+}
+
+#contact .form_item dd {
+  flex: 2;
+}
+
+input[type='text'],
+input[type='email'],
+select {
+  width: 100%;
+  height: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 160px;
+}
+
+#contact .btn {
+  margin-left: 300px;
+  margin-right: 270px;
+}
+
+input[type='submit'] {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #f893b1;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  padding: 3px 35px 7px 35px;
+}
+
+#contact .access {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#contact .access h3 {
+  font-size: 20px;
+  color: #707070;
+  background-color: #f8ffd1;
+  margin: 20px;
+  padding: 8px 0 12px 20px;
+}
+
+#contact .google_map {
+  margin: 0 20px 20px 20px;
+}
