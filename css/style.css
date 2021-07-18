@@ -33,7 +33,7 @@ header a img {
 }
 
 /***************メインビュー*****************/
-.main_visual {
+#top_page .main_visual {
   background-image: url(../images/main-image.png);
   background-size: cover;
   width: 100%;
@@ -79,7 +79,7 @@ nav.upper li a:hover {
 }
 
 /**************イントロ*****************/
-main .wrapper {
+#top_page main .wrapper {
   background-image: url(../images/bg-check-pattern.png);
   background-repeat: repeat;
   width: 100%;
@@ -292,4 +292,126 @@ footer address a {
 footer p {
   margin-bottom: 34px;
   font-size: 12px;
+}
+
+/*************アバウトページ*****************/
+#about main .wrapper {
+  background-image: url(../images/bg-check-pattern.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+#about .group {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#about .breadcrumbs {
+  margin-top: 42px;
+}
+
+#about .breadcrumbs li {
+  display: inline-block;
+}
+
+#about .breadcrumbs a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 12px;
+}
+
+#about .sub_group {
+  margin-top: 24px;
+  margin-left: 334px;
+  display: flex;
+  align-items: center;
+}
+#about .sub_group h2 {
+  font-size: 24px;
+  color: #9ccd08;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+#about .contents {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+#about .info h2 {
+  font-size: 24px;
+  background-color: #d5f8fc;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding: 14px 0 8px 20px;
+}
+
+#about .outline h3,
+#about .hours h3,
+#about .activity h3 {
+  font-size: 18px;
+  color: #f893f8;
+}
+
+#about .outline hr,
+#about .hours hr,
+#about .activity hr {
+  background-color: #fce3eb;
+  height: 3px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+#about .item {
+  display: flex;
+  margin-bottom: 31px;
+}
+
+#about .item dt {
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #8c6238;
+  background-color: #faeee4;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+
+#about .item dd {
+  font-size: 18px;
+  line-height: 30px;
+  border-bottom: 1px dotted #707070;
+  width: 490px;
+}
+
+#about .activity table {
+  border: 1px solid #707070;
+  width: 100%;
+}
+
+#about .activity tr {
+  height: 120px;
+}
+
+#about .activity th {
+  width: 30%;
+  color: #707070;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fce3eb;
+  border: 1px solid #707070;
+}
+
+#about .activity td {
+  line-height: 30px;
+  border: 1px solid #707070;
+  vertical-align: middle;
+  padding-left: 10px;
 }
