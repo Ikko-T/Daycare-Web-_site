@@ -25,7 +25,7 @@
 ---
 
 Adobe XD
-ß
+
 HTML5
 
 CSS3
