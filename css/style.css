@@ -324,16 +324,19 @@ footer p {
 }
 
 #about .sub_group {
-  margin-top: 24px;
-  margin-left: 334px;
+  margin-left: 328px;
   display: flex;
-  align-items: center;
+  text-align: center;
+  line-height: 90px;
+  width: 300px;
 }
 #about .sub_group h2 {
   font-size: 24px;
+  width: 100%;
   color: #9ccd08;
-  margin-left: 17px;
-  margin-right: 17px;
+  background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
 }
 
 #about .contents {
@@ -446,16 +449,19 @@ footer p {
 }
 
 #contact .sub_group {
-  margin-top: 24px;
-  margin-left: 334px;
+  margin-left: 328px;
   display: flex;
-  align-items: center;
+  text-align: center;
+  line-height: 90px;
+  width: 300px;
 }
 #contact .sub_group h2 {
-  font-size: 24px;
   color: #ffcc00;
-  margin-left: 17px;
-  margin-right: 17px;
+  font-size: 24px;
+  width: 100%;
+  background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
 }
 
 #contact .question {
