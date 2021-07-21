@@ -570,3 +570,82 @@ input[type='submit'] {
 #contact .google_map {
   margin: 0 20px 20px 20px;
 }
+
+/*************保育園生活ページ*****************/
+#life main .wrapper {
+  background-image: url(../images/bg-check-pattern.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+#life .group {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#life .breadcrumbs {
+  margin-top: 42px;
+}
+
+#life .breadcrumbs li {
+  display: inline-block;
+}
+
+#life .breadcrumbs a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 12px;
+}
+
+#life .sub_group {
+  margin-left: 328px;
+  display: flex;
+  text-align: center;
+  line-height: 90px;
+  width: 300px;
+}
+#life .sub_group h2 {
+  color: #ffcc00;
+  font-size: 24px;
+  width: 100%;
+  background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+}
+
+#life .schedule {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#life .schedule h3 {
+  font-size: 20px;
+  color: #707070;
+  background-color: #d5f8fc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 8px 0 12px 20px;
+}
+
+#life .annual-event {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#life .annual-event h3 {
+  font-size: 20px;
+  color: #707070;
+  background-color: #f8ffd1;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 8px 0 12px 20px;
+}
+
+#life .annual-event .image {
+  text-align: center;
+}
