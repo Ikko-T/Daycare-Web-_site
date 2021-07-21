@@ -333,6 +333,8 @@ footer p {
 #about .sub_group h2 {
   font-size: 24px;
   width: 100%;
+  text-shadow: 2px 2px 1px #ffffff;
+  font-weight: bold;
   color: #9ccd08;
   background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
   background-position: left center, right center;
@@ -458,6 +460,8 @@ footer p {
 #contact .sub_group h2 {
   color: #ffcc00;
   font-size: 24px;
+  text-shadow: 2px 2px 1px #ffffff;
+  font-weight: bold;
   width: 100%;
   background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
   background-position: left center, right center;
@@ -610,6 +614,8 @@ input[type='submit'] {
 #life .sub_group h2 {
   color: #ffcc00;
   font-size: 24px;
+  text-shadow: 2px 2px 1px #ffffff;
+  font-weight: bold;
   width: 100%;
   background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
   background-position: left center, right center;
@@ -689,6 +695,8 @@ input[type='submit'] {
 #info .sub_group h2 {
   color: #9ccd9c;
   font-size: 24px;
+  text-shadow: 2px 2px 1px #ffffff;
+  font-weight: bold;
   width: 100%;
   background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
   background-position: left center, right center;
@@ -764,4 +772,123 @@ input[type='submit'] {
   color: #f893b1;
   opacity: 0.5;
   transition: all 0.5s;
+}
+
+/*************フォトギャラリーページ*****************/
+#photo main .wrapper {
+  background-image: url(../images/bg-check-pattern.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+#photo .group {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#photo .breadcrumbs {
+  margin-top: 42px;
+}
+
+#photo .breadcrumbs li {
+  display: inline-block;
+}
+
+#photo .breadcrumbs a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 12px;
+}
+
+#photo .sub_group {
+  margin-left: 328px;
+  display: flex;
+  text-align: center;
+  line-height: 90px;
+  width: 300px;
+}
+#photo .sub_group h2 {
+  color: #ffcc00;
+  font-size: 20px;
+  text-shadow: 2px 2px 1px #ffffff;
+  font-weight: bold;
+  width: 100%;
+  background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+}
+
+#photo .photo {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#photo .photo h3 {
+  font-size: 20px;
+  color: #707070;
+  background-color: #d5f8fc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 8px 0 12px 20px;
+}
+
+#photo .class {
+  margin: 0 20px 20px 20px;
+}
+
+#photo .class h4 {
+  font-style: 18px;
+  color: #f893b1;
+  padding-left: 52px;
+  height: 43px;
+  line-height: 43px;
+}
+
+#photo .class hr {
+  margin-top: 0;
+  background-color: #fce3eb;
+  height: 3px;
+  border: none;
+}
+
+#photo .class .peterpan {
+  background-image: url(../images/icon-peterpan.png);
+  background-repeat: no-repeat;
+}
+
+#photo .class .captain-hook {
+  background-image: url(../images/icon-captain-hook.png);
+  background-repeat: no-repeat;
+}
+
+#photo .class .wendy {
+  background-image: url(../images/icon-wendy.png);
+  background-repeat: no-repeat;
+}
+
+#photo .class .tinker-bell {
+  background-image: url(../images/icon-tinkerbell.png);
+  background-repeat: no-repeat;
+}
+
+#photo .class .john {
+  background-image: url(../images/icon-john.png);
+  background-repeat: no-repeat;
+}
+
+#photo .class .michael {
+  background-image: url(../images/icon-michael.png);
+  background-repeat: no-repeat;
+}
+
+#photo .photo-gallery img {
+  margin-right: 11px;
+}
+
+#photo .photo-gallery img:last-child {
+  margin-right: 0;
 }
