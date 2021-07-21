@@ -294,7 +294,7 @@ footer p {
   font-size: 12px;
 }
 
-/*************アバウトページ*****************/
+/*************保育園案内ページ*****************/
 #about main .wrapper {
   background-image: url(../images/bg-check-pattern.png);
   background-repeat: repeat-x;
@@ -648,4 +648,120 @@ input[type='submit'] {
 
 #life .annual-event .image {
   text-align: center;
+}
+
+/*************お知らせページ*****************/
+#info main .wrapper {
+  background-image: url(../images/bg-check-pattern.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+#info .group {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#info .breadcrumbs {
+  margin-top: 42px;
+}
+
+#info .breadcrumbs li {
+  display: inline-block;
+}
+
+#info .breadcrumbs a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 12px;
+}
+
+#info .sub_group {
+  margin-left: 328px;
+  display: flex;
+  text-align: center;
+  line-height: 90px;
+  width: 300px;
+}
+#info .sub_group h2 {
+  color: #9ccd9c;
+  font-size: 24px;
+  width: 100%;
+  background-image: url(../images/birds-singing.png), url(../images/birds-singing.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+}
+
+#info .info {
+  border: 5px solid #fce3eb;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#info .info h3 {
+  font-size: 20px;
+  color: #707070;
+  background-color: #d5f8fc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 8px 0 12px 20px;
+}
+
+#info .info p {
+  margin: 23px 0 31px 26px;
+}
+
+#info .physical-year {
+  margin: 0 10px 19px 30px;
+}
+
+#info .physical-year h4 {
+  font-size: 18px;
+  color: #f893b1;
+  margin-bottom: 9px;
+}
+
+#info .physical-year hr {
+  width: 625px;
+  height: 3px;
+  border: none;
+  background-color: #fce3eb;
+  margin-bottom: 30px;
+}
+
+#info .physical-year ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#info .physical-year li {
+  list-style: none;
+  width: 195px;
+  height: 44px;
+  background-color: #f893b1;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#info .physical-year li:nth-child(3) {
+  margin-right: 0;
+}
+
+#info .physical-year a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  line-height: 44px;
+}
+
+#info .physical-year a:hover {
+  background-color: #ffffff;
+  color: #f893b1;
+  opacity: 0.5;
+  transition: all 0.5s;
 }
