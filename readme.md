@@ -14,6 +14,10 @@ HTML と CSS でコーディングを行う。
 
 Web 版のみ（レスポンシブ未対応）
 
+## 基本設計書
+
+[保育園 Web サイト制作 基本設計書](https://docs.google.com/spreadsheets/d/1NhHNSZG-liwr7R1xmrXBefBGMAdNPT8KCBhuZf4qCFk/edit?usp=sharing)
+
 ## ワイヤーフレーム
 
 ---
